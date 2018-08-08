@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		125D3ACD211B7693001A6F38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D3ACC211B7693001A6F38 /* AppDelegate.m */; };
 		125D3AD0211B7693001A6F38 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D3ACF211B7693001A6F38 /* RootViewController.m */; };
-		125D3AD3211B7693001A6F38 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D3AD2211B7693001A6F38 /* DataViewController.m */; };
-		125D3AD6211B7693001A6F38 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D3AD5211B7693001A6F38 /* ModelController.m */; };
 		125D3AD9211B7693001A6F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125D3AD7211B7693001A6F38 /* Main.storyboard */; };
 		125D3ADB211B7696001A6F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125D3ADA211B7696001A6F38 /* Assets.xcassets */; };
-		125D3ADE211B7696001A6F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125D3ADC211B7696001A6F38 /* LaunchScreen.storyboard */; };
 		125D3AE1211B7696001A6F38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D3AE0211B7696001A6F38 /* main.m */; };
 		125D3AEB211B7696001A6F38 /* AuthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D3AEA211B7696001A6F38 /* AuthTests.m */; };
 		125D3AF6211B7696001A6F38 /* AuthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D3AF5211B7696001A6F38 /* AuthUITests.m */; };
+		125D3B05211B7C85001A6F38 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 125D3B03211B7C85001A6F38 /* Default.png */; };
+		125D3B06211B7C85001A6F38 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 125D3B04211B7C85001A6F38 /* Default@2x.png */; };
+		125D3B0A211B7FBB001A6F38 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D3B09211B7FBB001A6F38 /* NetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +42,8 @@
 		125D3ACC211B7693001A6F38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		125D3ACE211B7693001A6F38 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		125D3ACF211B7693001A6F38 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		125D3AD1211B7693001A6F38 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		125D3AD2211B7693001A6F38 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		125D3AD4211B7693001A6F38 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		125D3AD5211B7693001A6F38 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		125D3AD8211B7693001A6F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		125D3ADA211B7696001A6F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		125D3ADD211B7696001A6F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		125D3ADF211B7696001A6F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		125D3AE0211B7696001A6F38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		125D3AE6211B7696001A6F38 /* AuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +52,10 @@
 		125D3AF1211B7696001A6F38 /* AuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		125D3AF5211B7696001A6F38 /* AuthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthUITests.m; sourceTree = "<group>"; };
 		125D3AF7211B7696001A6F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125D3B03211B7C85001A6F38 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		125D3B04211B7C85001A6F38 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		125D3B08211B7FA2001A6F38 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		125D3B09211B7FBB001A6F38 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,17 +106,15 @@
 		125D3ACA211B7693001A6F38 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				125D3B07211B7F82001A6F38 /* Manager */,
+				125D3B03211B7C85001A6F38 /* Default.png */,
+				125D3B04211B7C85001A6F38 /* Default@2x.png */,
 				125D3ACB211B7693001A6F38 /* AppDelegate.h */,
 				125D3ACC211B7693001A6F38 /* AppDelegate.m */,
 				125D3ACE211B7693001A6F38 /* RootViewController.h */,
 				125D3ACF211B7693001A6F38 /* RootViewController.m */,
-				125D3AD1211B7693001A6F38 /* DataViewController.h */,
-				125D3AD2211B7693001A6F38 /* DataViewController.m */,
-				125D3AD4211B7693001A6F38 /* ModelController.h */,
-				125D3AD5211B7693001A6F38 /* ModelController.m */,
 				125D3AD7211B7693001A6F38 /* Main.storyboard */,
 				125D3ADA211B7696001A6F38 /* Assets.xcassets */,
-				125D3ADC211B7696001A6F38 /* LaunchScreen.storyboard */,
 				125D3ADF211B7696001A6F38 /* Info.plist */,
 				125D3AE0211B7696001A6F38 /* main.m */,
 			);
@@ -140,6 +137,15 @@
 				125D3AF7211B7696001A6F38 /* Info.plist */,
 			);
 			path = AuthUITests;
+			sourceTree = "<group>";
+		};
+		125D3B07211B7F82001A6F38 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				125D3B08211B7FA2001A6F38 /* NetworkManager.h */,
+				125D3B09211B7FBB001A6F38 /* NetworkManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,9 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				125D3ADE211B7696001A6F38 /* LaunchScreen.storyboard in Resources */,
 				125D3ADB211B7696001A6F38 /* Assets.xcassets in Resources */,
+				125D3B06211B7C85001A6F38 /* Default@2x.png in Resources */,
 				125D3AD9211B7693001A6F38 /* Main.storyboard in Resources */,
+				125D3B05211B7C85001A6F38 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125D3B0A211B7FBB001A6F38 /* NetworkManager.m in Sources */,
 				125D3AE1211B7696001A6F38 /* main.m in Sources */,
 				125D3AD0211B7693001A6F38 /* RootViewController.m in Sources */,
-				125D3AD6211B7693001A6F38 /* ModelController.m in Sources */,
-				125D3AD3211B7693001A6F38 /* DataViewController.m in Sources */,
 				125D3ACD211B7693001A6F38 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,14 +324,6 @@
 				125D3AD8211B7693001A6F38 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		125D3ADC211B7696001A6F38 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				125D3ADD211B7696001A6F38 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
